@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='style.css' type="text/css">
+        <title>Rock Paper Scissor!</title>
+        <link rel="icon" href="images/ok-hand-100.png" type="image/gif">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./main.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Rock Paper Scissor!</h1>
+        </header>
+        <div id='conatiner'>
+            <div id='player-1'>
+
+                <div id='images'>
+                    <img id="hand" src='./images/hand-50.png' alt='hand'>
+                    <img id="rock" src="./images/hand-rock-50.png" alt='rock'>
+                    <img id="scissor" src="./images/hand-scissors-50.png" alt="scissor">
+                </div>
+
+
+                <div id='selected'>
+                    <img src='' class='selected-action'>
+                </div>
+
+            </div>
+            <div id='score'>
+                <h2>
+                    <span id="user-score">0</span>
+                    <span> - </span>
+                    <span id="computer-score">0</span>
+                </h2>
+                <button id='reset'>RESET</button>
+            </div>
+            <div id='player-2'>
+                <div id='selected-computer'>
+                    <img src='' class='selected-action-computer'>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
